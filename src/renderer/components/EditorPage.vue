@@ -142,7 +142,6 @@ export default {
     methods: {
         sourceEditorInit(sourceEditor) {
             require('brace/ext/language_tools');
-            require('brace/mode/chordpro');
             require('brace/theme/xcode');
             sourceEditor.setWrapBehavioursEnabled(true);
             sourceEditor.setShowInvisibles(true);

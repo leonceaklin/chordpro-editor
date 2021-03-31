@@ -41,9 +41,9 @@ function createWindow () {
     width: 1000,
     minWidth: 800,
     minHeight: 600,
-    vibrancy: 'light',
+    vibrancy: 'dark',
     titleBarStyle: "hidden",
-    background: "#ffffff",
+    background: "transparent",
     webPreferences: {
       backgroundThrottling: false,
       experimentalFeatures: true,
